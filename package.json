@@ -24,6 +24,7 @@
     "@angular/router": "^19.0.0",
     "@angular/ssr": "^19.0.1",
     "@materializecss/materialize": "^2.1.1",
+    "@types/materializecss__materialize": "^1.2.3",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

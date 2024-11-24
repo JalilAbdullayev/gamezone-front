@@ -1,0 +1,23 @@
+<home-banner />
+<Form class="row">
+  <mat-form-field class="col s10">
+    <input
+      matInput
+      type="search"
+      #search
+      maxlength="255"
+      required
+      placeholder="Search"
+    />
+    <mat-hint align="end">
+      {{ search.value.length }} / {{ search.maxLength }}
+    </mat-hint>
+  </mat-form-field>
+  <button mat-icon-button type="submit" class="col s2">
+    <mat-icon fontIcon="search"></mat-icon>
+  </button>
+</Form>
+<home-collection [title]="'Recently Added'" [collection]="[1, 2, 3, 4]" />
+<home-collection [title]="'Action & Adventure'" [collection]="[1, 2, 3, 4]" />
+<home-collection [title]="'FPS'" [collection]="[1, 2, 3, 4]" />
+<home-collection [title]="'Horror'" [collection]="[1, 2, 3, 4]" />

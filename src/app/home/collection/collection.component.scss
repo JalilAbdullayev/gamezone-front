@@ -1,0 +1,11 @@
+@use "../../../styles.scss" as main;
+
+h2 {
+  font-size: 30px;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
