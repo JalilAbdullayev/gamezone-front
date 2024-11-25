@@ -1,0 +1,13 @@
+@use "../../../styles.scss" as main;
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: main.$bg-cyan;
+  border-bottom: 5px solid main.$text-cyan;
+}
+
+aside a {
+  font-size: 18px;
+  font-weight: 600;
+}

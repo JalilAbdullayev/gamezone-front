@@ -19,6 +19,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { GameComponent } from './game/game.component';
 import { MatListModule } from '@angular/material/list';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { AllGamesComponent } from './all-games/all-games.component';
+import { BreadcrumbComponent } from './layout/breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { MatListModule } from '@angular/material/list';
     CollectionComponent,
     BannerComponent,
     GameComponent,
+    SidebarComponent,
+    AllGamesComponent,
+    BreadcrumbComponent,
   ],
   imports: [
     BrowserModule,
