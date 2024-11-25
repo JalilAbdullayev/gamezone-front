@@ -1,0 +1,36 @@
+@use "../../styles.scss" as main;
+
+hr {
+  height: 1px;
+  background-color: #d5d5d5;
+  border: none;
+}
+
+h1,
+h2 {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+}
+
+h2 {
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 21px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: main.$bg-cyan;
+  border-bottom: 5px solid main.$text-cyan;
+}
+
+aside a {
+  font-size: 18px;
+  font-weight: 600;
+}

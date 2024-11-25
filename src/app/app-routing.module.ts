@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { GameComponent } from './game/game.component';
 
 const routes: Routes = [
   {
-    path: '**',
+    path: '',
     component: HomeComponent,
   },
   {
-    path: 'games',
-    loadChildren: () => import('./game/game.module').then((m) => m.GameModule),
+    path: ':slug',
+    component: GameComponent,
   },
 ];
 

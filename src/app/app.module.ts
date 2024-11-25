@@ -12,11 +12,13 @@ import { HomeComponent } from './home/home.component';
 import { CollectionComponent } from './home/collection/collection.component';
 import { BannerComponent } from './home/banner/banner.component';
 import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule, MatIconButton } from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
+import { GameComponent } from './game/game.component';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { MatIconModule } from '@angular/material/icon';
     HomeComponent,
     CollectionComponent,
     BannerComponent,
+    GameComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,8 +37,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatCardModule,
     MatInputModule,
     MatFormFieldModule,
-    MatIconButton,
     MatIconModule,
+    MatListModule,
   ],
   providers: [
     provideClientHydration(withEventReplay()),
