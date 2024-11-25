@@ -22,6 +22,7 @@ import { MatListModule } from '@angular/material/list';
 import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { AllGamesComponent } from './all-games/all-games.component';
 import { BreadcrumbComponent } from './layout/breadcrumb/breadcrumb.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { BreadcrumbComponent } from './layout/breadcrumb/breadcrumb.component';
     SidebarComponent,
     AllGamesComponent,
     BreadcrumbComponent,
+    CategoryComponent,
   ],
   imports: [
     BrowserModule,

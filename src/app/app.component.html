@@ -9,16 +9,13 @@
       </a>
       <div class="hide-on-med-and-down">
         <a mat-button routerLink="/" class="p-5"> Home </a>
-        <a mat-button routerLink="" class="p-5"> All Games </a>
+        <a mat-button routerLink="/all" class="p-5"> All Games </a>
         <a class="dropdown-trigger p-5" href="#!" data-target="dropdown1">
           Categories <mat-icon>arrow_drop_down</mat-icon>
         </a>
         <ul id="dropdown1" class="dropdown-content">
           <li>
-            <a href="#!"> Category 1 </a>
-          </li>
-          <li>
-            <a href="#!"> Category 2 </a>
+            <a routerLink="category/test"> Category 1 </a>
           </li>
         </ul>
         <a mat-button routerLink="" class="p-5"> Contact Us </a>
